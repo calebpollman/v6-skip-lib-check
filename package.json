@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc"
   },
   "dependencies": {
+    "aws-amplify": "console-preview",
     "react": "^18",
     "react-dom": "^18",
     "next": "13.5.6"
